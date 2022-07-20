@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+    font-style: oblique;
+    
+
+}
+
+:root{
+
+    --primary-color: rgb(42, 42, 129);
+    --white-color:#fff;
+    --light-grey:rgb(43, 50, 58);
+    --black-color:#1d1e1f;
+}
+
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-position: cover;
+    background-size: cover;
+
+}
+
+.container{ 
+    padding: 50px 25px 0;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+.container::before{
+    content: ' ';
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(
+        145, 146, 122, 0.62), rgba(
+          217, 91, 132, 0.58));
+     background-image: ("C:\Users\Lenovo\Desktop\essentia\ow\registration\laptop.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: -1;
+    
+}
+
+.container .headline{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-right: 230px;
+
+
+}
+
+.form{
+    width:350px;
+    height:450px;
+    background: rgb(30, 39, 39, 0.3);
+    text-align: center;
+    padding-top:90px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    border-radius: 50px;
+    border-style: dotted #fff;
+}
+
+.container .headline h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: serif;
+    padding-bottom: -50px;
+    color:rgb(255, 255, 255);
+     font-family:  sans-serif;
+     padding-top: 30px;
+
+}
+
+.container .from-groups input{
+    
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    padding: 11px 15px;
+    height: 40px;
+    color: rgb(38, 38, 97); 
+    border-radius: 1fr;
+    box-shadow: burlywood;
+    width: 80%;
+    margin-left: -8%;
+    
+}
+.container .from-groups {
+    
+    margin-bottom: 10px;
+    
+}
+.container {
+    padding-top: 20px;
+    align-items: center;
+    margin-bottom: 70px;
+  
+}
+
+.container .from-groups input::placeholder{
+    color: var(--black-color);
+    font-family: 600px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .btn{
+    width: 60%;
+    margin: 15px 0 30px;
+    font-family: 13px;
+    font-weight: 700;
+    padding: 12px 29px;
+    height: 45px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    transition: 0.2s;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.signup.inActive{
+    display: none;
+}
+
+.signin{
+    display: none;
+
+}
+
+.signin.active{
+    display: block;
+}
+
+
+

@@ -1,0 +1,21 @@
+ABOUT US!
+<section >
+ <h1 class="me">ABOUT US</h1>
+ <p class="details">
+     essentia is all about you!<br>your thoughts,your emotions,your knowledge.<br>this is a platform which offers you an opportunity to explore new stuff with emerging technologies.<br><p>
+</section>
+
+
+
+
+.me {
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 60px;
+    background-color: rgb(201, 203, 209);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.2s ;
+}

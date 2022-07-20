@@ -1,0 +1,118 @@
+<div class="projects">
+<section class="box">
+  
+    <p>high-tech</p>
+</section> 
+    
+      <div class="column">
+               <img src="internship.jfif" alt="internship">
+        <div class="layer">
+            <h2>INTERNSHIP</h2>
+        </div>
+       </div>
+
+       <div class="column">
+        <img src="project.jpg" alt="project">
+ <div class="layer">
+     <h2>PROJECT</h2>
+ </div>
+</div>
+
+<div class="column">
+    <img src="research.jpg" alt="research">
+<div class="layer">
+ <h2>RESEARCH</h2>
+</div>
+</div>
+
+</div>
+<section>
+<div class="nontech-box">
+         <h1>NON-TECH</h1>
+</section>
+
+<div class="column1">
+    <img src="music" alt="music">
+<div class="layer">
+ <h2>MUSIC</h2>
+</div>
+</div>
+
+
+<div class="column1">
+<img src="dance" alt="dance">
+<div class="layer">
+<h2>DANCE</h2>
+</div>
+</div>
+
+<div class="column1">
+<img src="blog.jpg" alt="blog">
+<div class="layer">
+<h2>BLOG</h2>
+</div>
+</div>
+ 
+
+ <section class="testimonials">
+     <h1>STUDENT REVIEWS</h1>
+         <p>thoughts that bring people closer to essentia</p>
+     
+                 <div class="grid-container">
+             <div class="grid-child">
+                
+                 
+                      <h1>Cynthia berg</h1>
+                     <p>Essentia has provided me with a best community that i could ever have. thanks alot!</p>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-o"></i>
+        
+                 </div>
+             
+
+             
+               <div class="grid-child">
+                <div>
+                     <h1>karan kundra</h1>
+                    <p>everything is easily accesible. Essentia has made my life much more interesting.it's a delight being here.</p>
+                    <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-o"></i>
+        
+
+                    
+            </div>
+ </div>
+</section>
+    </header>
+<section class="footer">
+
+    <h1> contact us</h1>
+    <p>We are here to help.get in touch with us!</p>
+
+    <div class="icons">
+
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+
+    </section>>
+
+       
+            
+           
+
+    
+
+
+
+
+</body>
+</html>

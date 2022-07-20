@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="create.css">
+  </head>
+  <title>forms</title>
+<body>
+ 
+  
+<div class="container">
+  
+<div class="form-popup" id="myForm">
+  <form action="#" class="form-container">
+    
+
+    <h1>MY PROJECT</h1>
+     
+
+    <div class="from-groups">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+  </div>
+
+    <div class="from-groups">
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+  </div>
+
+    <div class="from-groups">
+    <label for="text"><b>Idea</b></label>
+    <input type="text" placeholder="Project idea" name=" Idea" required>
+  </div>
+
+    <div class="from-groups">
+    <label for="people"><b>Members</b></label>
+    <input type="number" placeholder="Enter total members" name="members" required>
+  </div>
+
+    <div class="from-groups">
+    <label for="time"><b>Time duration</b></label>
+    <input type="text" placeholder="Time duration" name="duration" required>
+  </div>
+
+    <div class="from-groups">
+    <button type="submit" class="btn">submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </div>
+  </form>
+</div>
+</div>
+<script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    
